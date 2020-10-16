@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name dsky)(type Legacy)(uri /home/ghaack/projects/dksybadge/dsky/dsky.lib)(options "")(descr ""))
+  (lib (name 4head)(type Legacy)(uri /home/ghaack/projects/tmg2021/4head/4head.lib)(options "")(descr ""))
+)
