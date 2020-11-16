@@ -58,6 +58,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define KEY_IRQ_Pin GPIO_PIN_3
+#define KEY_IRQ_GPIO_Port GPIOC
 #define EXT_FLASH_HOLD_Pin GPIO_PIN_0
 #define EXT_FLASH_HOLD_GPIO_Port GPIOA
 #define EXT_FLASH_WP_Pin GPIO_PIN_1
@@ -134,10 +136,10 @@ void Error_Handler(void);
 #define SEG7_B_GPIO_Port GPIOA
 #define SEG7_A_Pin GPIO_PIN_10
 #define SEG7_A_GPIO_Port GPIOA
-#define LED_MTX_SDB_Pin GPIO_PIN_5
-#define LED_MTX_SDB_GPIO_Port GPIOB
-#define KEY_IRQ_Pin GPIO_PIN_8
-#define KEY_IRQ_GPIO_Port GPIOB
+#define LED_BLANK_Pin GPIO_PIN_10
+#define LED_BLANK_GPIO_Port GPIOC
+#define LED_LATCH_Pin GPIO_PIN_11
+#define LED_LATCH_GPIO_Port GPIOC
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
